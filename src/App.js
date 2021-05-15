@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Heder/Header";
+import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Recomends from "./components/Recomends/Recomends";
 
@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Sidebar />
-      <Recomends />
+      <div className="app__page">
+        <Sidebar />
+        <Recomends />
+      </div>
     </div>
   );
 }

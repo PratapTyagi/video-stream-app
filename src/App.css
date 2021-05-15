@@ -3,3 +3,8 @@ body {
   color: whitesmoke;
   --app-color: rgb(104, 129, 243);
 }
+
+.app__page {
+  display: flex;
+  height: 100vh;
+}

@@ -1,0 +1,26 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarRow:hover {
+  background-color: #ffffff14;
+  color: var(--app-color);
+  transition: color 100ms ease-out;
+}
+
+.sidebarRow > h3 {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.sidebarRow_icon {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.sidebarRow__active {
+  background-color: #ffffff14;
+  color: var(--app-color);
+}
