@@ -18,8 +18,8 @@ const Sidebar = () => {
       <hr />
       <SidebarRow Item={VideoLibrary} text="Library" />
       <SidebarRow Item={History} text="History" />
-      <SidebarRow Item={Schedule} text="Schedule" />
-      <SidebarRow Item={ThumbUp} text="ThumbUp" />
+      <SidebarRow Item={Schedule} text="Watch Later" />
+      <SidebarRow Item={ThumbUp} text="Liked" />
       <hr />
     </div>
   );

@@ -9,16 +9,6 @@ const ChannelRow = ({
   noOfVideos,
   description,
 }) => {
-  //   <VideoRow
-  //   thumbnail="https://th.bing.com/th/id/OIP.ZOhBKmU2bn2j7QsLyhLZPQHaEJ?w=321&h=180&c=7&o=5&pid=1.7"
-  //   title="Inspired youtube clone"
-  //   views={200}
-  //   time={2}
-  //   image="https://avatars.githubusercontent.com/u/45279411?v=4"
-  //   channel="Pratap Tube"
-  //   verified
-  //   description="This is blockchain video"
-  // />
   return (
     <div className="channelRow">
       <div className="channelRow__avatar">

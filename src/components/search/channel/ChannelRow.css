@@ -30,16 +30,17 @@
   line-height: 18px;
 }
 
-.channelRow__desc__button {
+.channelRow__desc > .channelRow__desc__button {
   display: none;
 }
+
 .channelRow__right {
   flex: 0.3;
   display: flex;
   align-items: center;
 }
 
-.channelRow__right__button {
+.channelRow__right > .channelRow__right__button {
   margin-right: 20px;
 }
 
@@ -56,8 +57,8 @@
   .channelRow__desc__desc {
     display: none;
   }
-  .channelRow__desc__button {
-    display: block;
+  .channelRow__desc > .channelRow__desc__button {
+    display: inline-block;
   }
   .channelRow__right {
     display: none;
