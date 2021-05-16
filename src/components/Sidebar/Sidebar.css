@@ -3,3 +3,11 @@
   flex-direction: column;
   flex: 0.2;
 }
+
+.sidebar > hr {
+  height: 0.5px;
+  border: 0;
+  background-color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

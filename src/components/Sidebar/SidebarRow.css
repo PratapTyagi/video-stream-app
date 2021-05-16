@@ -18,9 +18,16 @@
 .sidebarRow_icon {
   margin: 20px;
   font-size: 25px;
+  color: grey;
 }
 
 .sidebarRow__active {
   background-color: #ffffff14;
   color: var(--app-color);
+}
+
+@media screen and (max-width: 660px) {
+  .sidebarRow > h3 {
+    display: none;
+  }
 }

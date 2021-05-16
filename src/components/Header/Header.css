@@ -15,10 +15,10 @@
   cursor: pointer;
 }
 
-.header__left > h2 {
+.header__logo {
   font-weight: 400;
   margin-left: 20px;
-  object-fit: contain;
+  color: whitesmoke;
 }
 
 .header__stream {
@@ -42,10 +42,10 @@
   color: lightgray;
 }
 
-.header__input > .header__search {
+.header__search {
   width: 50px !important;
   background-color: #ffffff14;
-  color: gray;
+  color: gray !important;
 }
 
 .header__icons {
