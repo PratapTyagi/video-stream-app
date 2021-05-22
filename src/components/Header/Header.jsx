@@ -17,7 +17,7 @@ const Header = () => {
     <div className="header">
       <div className="header__left">
         <Menu />
-        <Link to="/" style={{textDecoration: none}}>
+        <Link to="/" style={{textDecoration: "none"}}>
           <h2 className="header__logo">
             <span className="header__stream">S𝚝ᵣₑₐᗰ </span>Tᵤ𝚋ₑ
           </h2>
@@ -31,7 +31,7 @@ const Header = () => {
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
-        <Link to={`/search/${searchText}`} style={{textDecoration: none}}>
+        <Link to={`/search/${searchText}`} style={{textDecoration: "none"}}>
           <Search className="header__search" />
         </Link>
       </div>
